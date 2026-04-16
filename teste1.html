@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpGrade-cvsj</title>
+
+    <link rel="icon" href="img/sol.jpg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        section {
+            padding: 80px 20px;
+        }
+
+        #s1 {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 60px;
+            background-color: #1c3f60;
+            color: white;
+            flex-wrap: wrap;
+        }
+
+        .wrap-img {
+            width: 420px;
+            border-radius: 100%;
+            overflow: hidden;
+            box-shadow: 0 0 30px black;
+        }
+
+        .img-s1 {
+            width: 100%;
+            transition: 0.3s;
+        }
+
+        .img-s1:hover {
+            transform: scale(1.2);
+        }
+
+        .wrap-words {
+            max-width: 650px;
+        }
+
+        .wrap-words h2 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .wrap-words p {
+            font-size: 20px;
+            line-height: 1.6;
+        }
+
+        #s2 {
+            min-height: 100vh;
+            background: skyblue;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #s2 h2 {
+            color: white;
+            font-size: 42px;
+            margin-bottom: 30px;
+        }
+
+        .wrap-cards {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            text-decoration: none;
+            background-color: lightblue;
+            color: white;
+            width: 380px;
+            height: 480px;
+            border-radius: 18px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 25px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.08);
+            box-shadow: 0 0 30px #0b5e7d;
+        }
+
+        .card img {
+            width: 260px;
+            height: 260px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        #s3 {
+            min-height: 100vh;
+            background-color: #1c3f60;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            gap: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+
+        <section id="s1">
+            <div class="wrap-img">
+                <img class="img-s1" src="img/ft1.jpg">
+            </div>
+
+            <div class="wrap-words">
+                <h2>UpGrade</h2>
+                <p>Conheça a nossa empresa de itinerário.</p>
+            </div>
+        </section>
+
+        <section id="s2">
+            <h2>NOSSOS INTEGRANTES</h2>
+
+            <div class="wrap-cards">
+                <a class="card" href="#" target="_blank">
+                    <img src="img/ft2.jpg">
+                    <h3>Giovanna Lopes</h3>
+                </a>
+
+                <a class="card" href="#" target="_blank">
+                    <img src="img/ft3.jpg">
+                    <h3>Fernanda Zeni</h3>
+                </a>
+
+                <a class="card" href="#" target="_blank">
+                    <img src="img/ft4.jpg">
+                    <h3>Matheo Campos</h3>
+                </a>
+            </div>
+        </section>
+
+        <section id="s3">
+            <h2>Produtos</h2>
+
+            <div class="wrap-cards">
+                <a class="card" href="#" target="_blank">
+                    <img src="img/ft5.jpg">
+                    <h3>VENTOSAS</h3>
+                </a>
+
+                <a class="card" href="#" target="_blank">
+                    <img src="img/ft6.jpg">
+                    <h3>PIN</h3>
+                </a>
+
+                <a class="card" href="#" target="_blank">
+                    <img src="img/ft7.jpg">
+                    <h3>PULSEIRA</h3>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
